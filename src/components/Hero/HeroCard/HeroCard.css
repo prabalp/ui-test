@@ -1,0 +1,9 @@
+.heroCard {
+  position: relative;
+}
+
+.heroCardBottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
