@@ -1,9 +1,48 @@
 .heroCard {
   position: relative;
+  margin: 40px;
 }
+/* .heroCard > div {
+  width: 928px;
+  height: 699px;
+} */
 
 .heroCardBottomLeft {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 48px;
+  left: 32px;
+
+  width: 360px;
+  height: 67px;
+  /* right: 1408px;
+  top: 584px; */
+
+  font-family: Noto Serif TC;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  /* or 140% */
+
+  color: #ffffff;
+}
+
+.heroCardBottomRight {
+  position: absolute;
+  bottom: 48px;
+  right: 32px;
+
+  width: 105px;
+  height: 20px;
+  /* right: 904px;
+top: 631px; */
+
+  font-family: Noto Serif TC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+
+  color: #ffffff;
 }

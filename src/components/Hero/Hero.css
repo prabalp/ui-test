@@ -1,4 +1,7 @@
 .hero {
-  overflow: auto;
-  white-space: nowrap;
+  display: flex;
+  overflow-x: auto;
+}
+.hero::-webkit-scrollbar {
+  width: 0;
 }

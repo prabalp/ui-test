@@ -26,6 +26,6 @@
   overflow-x: auto;
 }
 
-/* .meetSlider::-webkit-scrollbar {
+.meetSlider::-webkit-scrollbar {
   width: 0;
-} */
+}
